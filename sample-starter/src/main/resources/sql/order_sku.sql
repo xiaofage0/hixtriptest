@@ -18,6 +18,6 @@ CREATE TABLE `order_sku` (
   PRIMARY KEY (`id`),
   KEY `item_id` (`sku_id`),
   KEY `order_id` (`order_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_bin;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_bin COMMENT='购物车';
 
 SET FOREIGN_KEY_CHECKS = 1;
